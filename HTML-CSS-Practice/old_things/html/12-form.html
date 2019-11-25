@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+</head>
+<body>
+	
+<form action="#" method="post">
+	<fieldset>
+		<legend>fieldset legend</legend>
+		<p>
+			<label for="name">이름</label>
+			<input type="text" id="name" name="name" value="">
+		</p>
+		<p>
+			<label for="idname">ID</label>
+			<input type="text" id="idname" name="idname" value="">
+			<input type="button" value="아이디 중복 확">
+		</p>
+		<p>
+			<label for="usrpass">Password</label>
+			<input type="password" id="usrpass" name="usrpass" value="">
+		</p>	
+		<p>
+			<label for="comments">Comment</label>
+			<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+		</p>
+		<p>
+			<label for="usersel">선택</label>
+			<select name="usersel" id="usersel">
+				<option value="1">Darmstadt</option>
+				<option value="2">Seoul</option>
+				<option value="3">Daejeon</option>
+			</select>
+		</p>
+		<p>
+			<span>성별</span>
+			<label for="male">남자</label>
+			<input type="radio" id="male" name="choice" value="male">
+			<label for="female">여자</label>
+			<input type="radio" id="female" name="choice" value="female">
+		</p>
+		<p>
+			<span>Hobby?</span>
+			<label for="">Traveling</label>
+			<input type="checkbox" id="trip" name="" value="travel">
+			<label for="">Reading a book</label>
+			<input type="checkbox" id="read" name="" value="book">
+			<label for="">Watching a movie</label>
+			<input type="checkbox" id="movie" name="" value="movie">
+		</p>	
+
+	</fieldset>
+	<p>
+		<input type="submit" value="전송">
+		<input type="reset" value="취소">
+	</p>
+</form>
+
+</body>
+</html>
